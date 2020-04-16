@@ -176,7 +176,7 @@ public class HillActivity extends AppCompatActivity implements View.OnClickListe
         return caractère;
     }
 
-    public int minois_BR(String mot) {
+    public int length_word(String mot) {
         // fonction qui calcule la longueur d'un mot qui contient du code hexa sous forme \xff qui compte pour
         // un seul caractère
         int longueur = 0;
@@ -201,7 +201,7 @@ public class HillActivity extends AppCompatActivity implements View.OnClickListe
         //phrase = phrase.replaceAll("[^a-zA-Z]","").toUpperCase();
 
         // Caractere rare
-        if(minois_BR(phrase) % 2 == 1) {
+        if(length_word(phrase) % 2 == 1) {
             phrase += "X";
         }
         keyMatrix = getKey();
