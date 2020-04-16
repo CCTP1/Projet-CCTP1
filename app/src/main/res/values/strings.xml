@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Projet-CCTP1</string>
+    <string name="cle">clé</string>
+    <string name="tcrypt">Texte crypté</string>
+    <string name="tclair">Texte en clair</string>
+    <string name="bcrypter">Crypter</string>
+    <string name="bdecrypter">Décrypter</string>
+    <string name="bretour">Retour</string>
+    <string name="batbash">Atbash</string>
+    <string name="bcesar">César</string>
+    <string name="bvigenere">Vigenère</string>
+    <string name="bhomophone">Homophone</string>
+    <string name="bplayfair">Playfair</string>
+    <string name="bhill">Hill</string>
+    <string name="bdes">DES</string>
+    <string name="Polybe">Polybe</string>
+    <string name="Playfair">Playfair</string>
+    <string name="DES">DES</string>
+    <string name="Hill">Hill</string>
+    <string name="Cesar">Cesar</string>
+    <string name="Atbash">Atbash</string>
+</resources>
